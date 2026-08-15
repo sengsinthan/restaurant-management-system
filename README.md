@@ -9,6 +9,44 @@ CSS**, **PostgreSQL** and **Prisma**. No other frameworks.
 
 ---
 
+## Screenshots
+
+### Dashboard
+
+Trading figures for the selected period — revenue, ticket count, average order
+and kitchen queue, with sales and order charts, the latest tickets, best
+sellers and ingredients that need a reorder.
+
+![Dashboard](docs/Dashboard.png)
+
+### POS
+
+Menu grid with category filters and SKU search on the left, the running ticket
+on the right. Pick dine-in, takeaway or delivery, attach a table, guest count
+and customer, then send to the kitchen or charge. Tax and service are computed
+as the ticket builds.
+
+![POS](docs/POS.png)
+
+### Kitchen display
+
+Live tickets in four columns — New, Preparing, Ready, Served — advanced one
+click at a time. Each card shows the table, item quantities, modifiers and
+kitchen notes, with an age timer that turns amber past 12 minutes and red past
+20. Updates arrive over SSE.
+
+![Kitchen display](docs/Kitchen.png)
+
+### Floor plan
+
+Every table by zone with its status — available, occupied, reserved, cleaning
+or out of service — plus seat count, the open order number, how long the party
+has been seated and the running bill.
+
+![Floor plan](docs/Tables.png)
+
+---
+
 ## Running it
 
 ```bash
