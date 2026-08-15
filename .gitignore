@@ -44,3 +44,19 @@ next-env.d.ts
 
 # local env
 .env
+
+# AI assistants / agent tooling
+.agents/
+.claude/
+.windsurf/
+.cursor/
+.cursorrules
+.aider*
+.codex/
+.gemini/
+.github/copilot-instructions.md
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+skills-lock.json
+.mcp.json
